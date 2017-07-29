@@ -8,9 +8,9 @@ import org.junit.BeforeClass;
  * Unit test for simple App.
  */
 public class AppTest {
-	private App app;
+	private static App app;
 	@BeforeClass
-	public void init(){
+	public static void initiate(){
 		app=new App();
 	}
 	@org.junit.Test
